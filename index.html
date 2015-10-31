@@ -1,55 +1,72 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="VPN Client Gateway : Pi-Powered VPN Client Gateway: installation documentation and related files.">
+    <meta name="viewport" content="width=640">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
 
-    <title>VPN Client Gateway</title>
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Passerelle client VPN sur Raspberry Pi by solibres</title>
   </head>
 
   <body>
+    <a id="forkme_banner" href="https://github.com/solibres/passerelle_client_vpn">View on GitHub</a>
+    <div class="shell">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mr-canoehead/vpn_client_gateway">View on GitHub</a>
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Passerelle client VPN sur Raspberry Pi</h1>
+            <h2>Passerelle Client VPN sur Raspberry Pi : installation, documentation et autres fichiers.</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
 
-          <h1 id="project_title">VPN Client Gateway</h1>
-          <h2 id="project_tagline">Pi-Powered VPN Client Gateway: installation documentation and related files.</h2>
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/solibres/passerelle_client_vpn/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/solibres/passerelle_client_vpn/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/mr-canoehead/vpn_client_gateway/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/mr-canoehead/vpn_client_gateway/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>The VPN Client Gateway forwards network traffic through a Virtual Private Network connection. To facilitate geospoofing for media streaming, it includes a management web page that allows you to switch VPN servers by simply clicking on a country flag.</p>
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <p>La Passerelle client VPN fait passer le trafic réseau à travers une connexion VPN (Réseau Privé Virtuel). Pour faciliter le changement virtuel d'emplacement géographique, il inclut une interface web de gestion qui permet de changer de serveur VPN simplement en cliquant sur des drapeaux de pays.</p>
 
 <p>This implementation has been tested on a Raspberry Pi, but it could be deployed on other lightweight Linux computers.</p>
 
 <p>A detailed installation guide for setting up the VPN Client Gateway on a Raspberry Pi is included.</p>
-<p>Here is a sample screenshot of the management page:</p>
-<img src="images/screenshots/basic_screenshot.png">
       </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">VPN Client Gateway maintained by <a href="https://github.com/mr-canoehead">mr-canoehead</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/solibres">solibres</a> can be found on <a href="https://github.com/solibres/passerelle_client_vpn">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
       </footer>
+
     </div>
 
     
-
   </body>
 </html>
