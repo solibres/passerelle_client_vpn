@@ -1,5 +1,6 @@
 <h1>Passerelle client VPN sur Raspberry Pi</h1>
-The VPN Client Gateway forwards network traffic through a Virtual Private Network connection. To facilitate geospoofing for media streaming, it includes a management web page that allows you to switch VPN servers by simply clicking on a country flag.
+
+La Passerelle client VPN fait passer le trafic réseau à travers une connexion VPN (Réseau Privé Virtuel). Pour faciliter le changement virtuel d'emplacement géographique, il inclut une interface web de gestion qui permet de changer de serveur VPN simplement en cliquant sur des drapeaux de pays.
 
 To build your own VPN Client Gateway you will need a Raspberry Pi (or similar lightweight Linux computer) and a [Private Internet Access](https://www.privateinternetaccess.com) or [Newshosting](https://www.newshosting.com/) VPN account.
 
